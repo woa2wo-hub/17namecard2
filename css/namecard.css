@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+* {margin: 0; padding: 0;}
+li {list-style: none;}
+a {color: #333; text-decoration: none;}
+
+body {font-family: 'Pretendard'; background: #e7e8e4;}
+
+/* body > div{border: 1px solid red;}
+body > div > * {border: 1px solid blue;} */
+
+.header { margin-bottom: 60px;}
+.header .face {width: 110px; height: 110px; margin: 40px auto 20px auto; border-radius: 50%; overflow: hidden;}
+.header .face img {width: 100%; }
+.header .name {font-size: 24px; text-align: center; margin-bottom: 5px;}
+.header .position {font-size: 16px; color: #656565; text-align: center;}
+
+.textbox {margin-bottom: 60px; text-align: center;}
+.textbox .big {font-family: 'JSongmyeong'; font-size: 20px;}
+.textbox .small { font-size: 14px; color: #cfcaca;}
+
+
+.btnbox {margin-bottom: 60px; padding: 0 30px;}
+.btnbox a {background: #7a836f; color: #fff; padding: 12px 0; display: block; text-align: center; margin-bottom: 10px;} 
+.btnbox .sms {background: #6f7b83;}
+.btnbox .kakao {background: #99925e;}
+.btnbox .email {background: #836f6f;}
+
+
+.photobox {margin-bottom: 60px;  padding: 28px 0; background: url(../images/bg_photobox.png) repeat-x; }
+.photobox .title {font-size: 16px; text-align: center; margin-bottom: 50px; color: #fff;}
+.photobox .imgbox {display: flex; padding: 0 30px; gap: 24px 15px; flex-wrap: wrap; justify-content: center;}
+.photobox .imgbox li {width: 120px; height: 120px; flex-shrink: 0;}
+.photobox .imgbox li:nth-child(2n) {margin-top: 80px;}
+.photobox .imgbox li img {width: 100%;}
+
+.direction {margin-bottom: 60px; padding: 0 30px; }  
+.direction .title {font-size: 16px; text-align: center; margin-bottom: 50px;}
+.direction .direction_map { height: 400px;}
